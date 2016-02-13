@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import pika
 
 credentials = pika.PlainCredentials("guest", "guest")
@@ -9,7 +11,7 @@ conn_broker = pika.BlockingConnection(conn_params) #/(hwc.1) Establish connectio
 channel = conn_broker.channel() #/(hwc.2) Obtain channel
 
 channel.exchange_declare(exchange="hello-exchange", #/(hwc.3) Declare the exchange
-                         type="direct",
+                         exchange_type="direct",
                          passive=False,
                          durable=True,
                          auto_delete=False)

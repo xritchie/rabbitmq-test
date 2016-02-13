@@ -1,1 +1,1 @@
-{"virtualbox":{"/home/vagrant/vagrant":{"guestpath":"/home/vagrant/vagrant","hostpath":"/Users/shawnritchie/dev/workspace/vagrant-docker/rabbitmq","disabled":false}}}
+{"virtualbox":{"/home/vagrant/hw":{"guestpath":"/home/vagrant/hw","hostpath":"/Users/shawnritchie/dev/workspace/vagrant-docker/rabbitmq/hw","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/shawnritchie/dev/workspace/vagrant-docker/rabbitmq","disabled":false}}}

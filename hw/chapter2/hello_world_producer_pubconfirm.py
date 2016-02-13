@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import pika, sys
 from pika import spec
 
